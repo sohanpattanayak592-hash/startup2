@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment variables (NEVER commit secrets)
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+backend/__pycache__/
+api/__pycache__/
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local data
+backend/orders.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
